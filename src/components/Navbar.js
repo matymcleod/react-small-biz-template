@@ -1,6 +1,5 @@
 // Rule #1 (optional)
 import React from 'react';
-import App from '../App';
 
 
 // Rule #2 -- Define a function with same name as component name
