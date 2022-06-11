@@ -37,6 +37,13 @@
   }
 }
 
+.flex-1 {
+  justify-content: center;
+}
+
 .company-name {
-  
+  font-size: 2rem;
+}
+.navbar {
+  padding: 2rem;
 }
