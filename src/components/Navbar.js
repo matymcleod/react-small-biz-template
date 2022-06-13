@@ -24,9 +24,19 @@ const Navbar = function() {
   <div className="flex-1">
     <h2 className="company-name normal-case text-xl">Company Name</h2>
   </div>
+  <div class="avatar">
+  <div class="w-24 mask mask-squircle">
+    <img src="https://api.lorem.space/image/face?hash=47449" alt="Company Logo squircle"/>
+  </div>
+</div>
+<div class="avatar">
+  <div class="w-24 mask mask-hexagon">
+    <img src="https://api.lorem.space/image/face?hash=55350" alt="Company Logo hexagon"/>
+  </div>
+</div>
   <div className="avatar">
     <div className="w-24 mask mask-triangle">
-    <img src="https://api.lorem.space/image/face?hash=60857" alt="Company Logo"/>
+    <img src="https://api.lorem.space/image/face?hash=60857" alt="Company Logo triangle"/>
     </div>
   </div>
 </div> )
