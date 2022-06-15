@@ -13,5 +13,12 @@ const ImageSlider = ({images = [], ...props}) => {
   ))}
   </Wrapper>;
 };
+const SliderTimer = ({images = [], ...props}) => {
+  return <Wrapper {...props}>
+  {images.map((image, index) => (
+    <Slide key={index}></Slide>
+  ))}
+  </Wrapper>;
+};
 
 export default ImageSlider;
